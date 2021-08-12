@@ -1,0 +1,13 @@
+{
+  "name": "rtl-checker",
+  "version": "1.0.0",
+  "description": "Check if languages uses right to left text writing.",
+  "main": "index.js",
+  "homepage": "https://github.com/cheulong/rtl-checker",
+  "keywords": [
+    "rtl",
+    "langCode"
+  ],
+  "author": "Cheulong Sear",
+  "license": "ISC"
+}
