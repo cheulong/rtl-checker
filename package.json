@@ -1,13 +1,20 @@
 {
   "name": "rtl-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if languages uses right to left text writing.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "homepage": "https://github.com/cheulong/rtl-checker",
   "keywords": [
     "rtl",
     "langCode"
   ],
   "author": "Cheulong Sear",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }

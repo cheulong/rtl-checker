@@ -14,10 +14,7 @@ const rtlLanguageList = {
   yi: 'Yiddish',
 };
 
-/**
- * @param {string} langCode The string
- */
-const isRTL = (langCode) => rtlLanguageList.hasOwnProperty(langCode);
+const isRTL = (langCode: string) => rtlLanguageList.hasOwnProperty(langCode);
 
 const listRTLLangCodes = () => Object.keys(rtlLanguageList);
 
