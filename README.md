@@ -26,3 +26,7 @@ console.log(isRTL('ar')); //true
 - `listRTLLangCodes()`
 - `listRTLLanguages()`
 - `listRTLLangCodesAndCountries()`
+
+## Example
+
+- [codesandbox](https://codesandbox.io/s/nameless-cloud-zg50i?file=/src/App.js)
